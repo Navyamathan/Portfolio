@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navya | Java Web Developer</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome for Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+
+    <!-- Google Fonts for Typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <!-- Animate.css for Animations -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+
+    <!-- AOS Animation Library -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Header with Navigation -->
+    <header id="header" class="bg-primary text-white fixed-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="#">Navya</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#education">Education</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Introduction Section -->
+    <section id="intro" class="d-flex justify-content-center align-items-center text-center vh-100 bg-primary text-white">
+        <div class="container">
+            <h1 class="display-4 animate__animated animate__fadeIn">Hi, I'm Navya</h1>
+            <p class="lead animate__animated animate__fadeIn animate__delay-1s">A passionate Web Developer and Tech Enthusiast</p>
+            <a href="#contact" class="btn btn-light btn-lg animate__animated animate__fadeIn animate__delay-2s">Get in Touch</a>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="py-5 bg-light" data-aos="fade-up">
+        <div class="container text-center">
+            <h2 class="display-4 mb-4">About Me</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <img src="images/about.jpg" alt="Navya" class="img-fluid rounded-circle mb-4">
+                </div>
+                <div class="col-md-6">
+                    <p>Hello! I'm Navya, a Web Developer based in [Your Location]. I specialize in building dynamic and interactive websites with the latest technologies like React, Node.js, and more. My mission is to create engaging, user-friendly, and accessible digital experiences.</p>
+                    <h4 class="mt-4">Skills & Expertise:</h4>
+                    <ul>
+                        <li>Java</li>
+                        <li>HTML, CSS, JavaScript</li>
+                        <li>UX/UI Design</li>
+                        <li>REST APIs, Database Integration</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="py-5" data-aos="fade-up">
+        <div class="container text-center">
+            <h2 class="display-4 mb-4">Education</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title">Bachelor of Computer Science (B.Sc.CS)</h5>
+                            <p class="card-text">KPR College of Arts Science and Research, Comibatore</p>
+                            <p class="card-text"><strong>Specialization:</strong> Computer Science</p>
+                            <p class="card-text"><strong>Duration:</strong> 2023 - 2026</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title">High School</h5>
+                            <p class="card-text">[Your High School Name]</p>
+                            <p class="card-text"><strong>Duration:</strong> 2022 - 2023</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5" data-aos="fade-up">
+        <div class="container text-center">
+            <h2 class="display-4 mb-4">My Projects</h2>
+            <div class="row">
+                <!-- Project 1 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-lg border-light rounded hover-shadow">
+                        <img src="images/project1.jpg" class="card-img-top" alt="Project 1">
+                        <div class="card-body">
+                            <h5 class="card-title">ATM-Consolo</h5>
+                            <p class="card-text">A personal portfolio website to showcase my skills, projects, and achievements. Built with Java, this project demonstrates my web development abilities.</p>
+                            <a href="https://www.yourportfolio.com" target="_blank" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-lg border-light rounded hover-shadow">
+                        <img src="images/project2.jpg" class="card-img-top" alt="Project 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Book My Show</h5>
+                            <p class="card-text">An e-commerce application built with Java. Users can browse books, add them to the cart, and make purchases.</p>
+                            <a href="https://www.bookstore.com" target="_blank" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-lg border-light rounded hover-shadow">
+                        <img src="images/project3.jpg" class="card-img-top" alt="Project 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Library Management</h5>
+                            <p class="card-text">A task management web app that allows users to create, edit, and track tasks. Built with Java for backend storage.</p>
+                            <a href="https://www.taskmanagerapp.com" target="_blank" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-5 bg-light" data-aos="fade-up">
+        <div class="container text-center">
+            <h2 class="display-4 mb-4">My Skills</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h5>Frontend Development</h5>
+                    <p>React, HTML, CSS, JavaScript</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5>Backend Development</h5>
+                    <p>Springboot, Java</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5>UI/UX Design</h5>
+                    <p>Figma, Sketch, Adobe XD</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-dark text-white" data-aos="fade-up">
+        <div class="container text-center">
+            <h2>Contact Me</h2>
+            <p>If you would like to get in touch, feel free to reach out through the following:</p>
+            <ul class="list-unstyled">
+                <li><i class="fas fa-envelope"></i> Email: navyamathan@gmail.com</li>
+                <li><i class="fas fa-phone-alt"></i> Phone: +91 9585544456</li>
+                <li><i class="fas fa-map-marker-alt"></i> Address: 14, Jeevanagar, Karuvam Palayam, Therkku Thottam, Tiruppur</li>
+            </ul>
+            <a href="mailto:navya@example.com" class="btn btn-light btn-lg">Email Me</a>
+        </div>
+    </section>
+
+    <!-- Floating Action Button -->
+    <a href="#contact" class="btn btn-warning btn-lg floating-btn">
+        <i class="fas fa-envelope"></i>
+    </a>
+
+    <!-- Footer -->
+    <footer class="bg-primary text-white text-center py-4">
+        <p>&copy; 2025 Navya | All rights reserved</p>
+    </footer>
+
+    <!-- Bootstrap JS & jQuery -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS Scroll Animations -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1200, 
+            once: true
+        });
+    </script>
+</body>
+
+</html>

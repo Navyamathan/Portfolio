@@ -1,0 +1,138 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+#header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar {
+    padding: 15px 0;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-right: 20px;
+    transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f39c12;
+}
+
+/* Intro Section */
+#intro {
+    background: linear-gradient(120deg, #2980b9, #6dd5fa);
+    color: white;
+    text-align: center;
+}
+
+#intro h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+#intro p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+#intro a {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    border-radius: 30px;
+}
+
+/* About Section */
+#about {
+    background-color: #f4f4f4;
+}
+
+#about ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#about ul li {
+    font-size: 1.1rem;
+    margin: 10px 0;
+}
+
+/* Projects Section */
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    border-radius: 10px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+/* Skills Section */
+#skills h5 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+/* Contact Section */
+#contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#contact ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#contact ul li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+#contact .btn {
+    font-size: 1.2rem;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+/* Floating Action Button */
+.floating-btn {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: #f39c12;
+    color: white;
+    border-radius: 50%;
+    padding: 15px 20px;
+    font-size: 1.5rem;
+    z-index: 9999;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.floating-btn:hover {
+    transform: scale(1.1);
+}
+
+/* Footer */
+footer {
+    background-color: #2980b9;
+}
